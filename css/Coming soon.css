@@ -1,0 +1,233 @@
+body
+{
+    width: auto;
+    height: auto;
+    background-size: 100% 100%;
+    background-origin: border-box;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+      width: 100%
+    }
+  }
+#sec1 #title
+{
+    position: absolute;
+    top: 0;
+}
+.logo
+{
+    margin-left: 62px;
+    margin-top: 35px;
+    width: 100px;
+    height: 100px;
+}
+.name
+{
+    margin-left: 15px;
+    letter-spacing: 8px;
+    font-weight: normal;
+    color: #FFFFFF
+}
+#sec1 .title,#nav_elem 
+{
+    display: inline-table;
+}
+header #nav_elem 
+{
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    float: right;
+}
+
+header #nav_elem .nav li
+{
+    overflow: hidden;
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+header #nav_elem .nav li a
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: aliceblue;
+    font-stretch: expanded;
+    text-transform: capitalize
+}
+.socialMedia 
+{
+    position: fixed;
+    right: 10px;
+    top: 250px;
+    opacity: 3;
+}
+.socialMedia a img
+{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+#middle
+{
+    position: absolute;
+    top:100px ; 
+    left: 30%;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    #middle {
+      width: 100%
+    }
+  }
+#comp-jhoz2aav {
+    position: relative;
+    margin: 0px 0px 64px calc((100% - 980px) * 0.5);
+    left: 165px;
+    grid-area: 2 / 1 / 7 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.style-jhoz2acw {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#comp-jhoz1k88 {
+    position: relative;
+    margin: 60px 0px 10px calc((100% - 980px) * 0.5);
+    left: 225px;
+    grid-area: 2 / 1 / 6 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+.font_6 {
+    font: normal normal normal 19px/1.4em futura-lt-w01-light,sans-serif;
+    color: #FFFFFF;
+}
+element.style {
+    width: 538px;
+    pointer-events: none;
+}
+#mua1ninlineContent-gridContainer > * {
+    pointer-events: initial;
+}
+#comp-ir243rba {
+    position: relative;
+    margin: 0px 0px 45px calc((100% - 980px) * 0.5);
+    left: 231px;
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.txtNew {
+    word-wrap: break-word;
+    text-align: start;
+}
+.font_3 {
+    font: normal normal bold 85px/1.4em futura-lt-w01-book,sans-serif;
+    color: #FFFFFF;
+}
+#comp-irarbd0i {
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+    left: 338px;
+    grid-area: 4 / 1 / 5 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+.txtNew {
+    word-wrap: break-word;
+    text-align: start;
+}
+
+/*#mediairaosuq21inlineContent-gridContainer > * {
+    pointer-events: initial;
+}
+
+#comp-irp1dkxh {
+    position: relative;
+    margin: 49px 0px 10px calc((100% - 980px) * 0.5);
+    left: 465px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.ImageButton_1link {
+    position: relative;
+    display: block;
+    z-index: 0;
+    overflow: visible;
+    -ms-touch-action: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+*/
+#footer
+{
+    position: relative;
+    top: 374px;
+    text-align: center;
+    font: normal normal bold 25px/1.4em futura-lt-w01-book,Adobe Fan Heiti Std;
+    color: #FFFFFF;
+}
+#footer form input
+{
+    margin-top: 80px
+}
+#footer form input[type=email]
+{
+    width: 373px;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    background-color: #fff;
+    border: 0px;
+}
+#footer form input[type=submit]
+{
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    background-color: #fff;
+    border: 0px;
+    box-shadow: 2px 2px 6px 3px coral;
+
+}
+#footer form input[type=submit]:hover
+{
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    background-color:cornsilk;
+    border: 0px;
+}
+#footer form .foot
+{
+    display: block;
+    font-size: 20px;
+    color: antiquewhite;
+    margin-top: 300px;
+}
